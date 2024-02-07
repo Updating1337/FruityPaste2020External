@@ -1,6 +1,6 @@
 This is the old Fruityskills External Cheat -> https://streamable.com/dohn79
 
-This is being posted due to itsexit scamming me over 100$
+This is being posted due to ItsExit scamming me over 100$ 
 He claims paying 400/500$ is enough :rofl:
 
 oh well, i couldnt care about a 4 year old source anyways, Enjoy
