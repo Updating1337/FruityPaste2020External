@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\intellect">
+      <UniqueIdentifier>{e6b02073-35c9-4cd6-a85f-881a05541214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies">
+      <UniqueIdentifier>{35b4d3a2-c07d-4ded-960f-9740856758b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\game">
+      <UniqueIdentifier>{f8dc6b42-bcbb-4f58-af30-7859a41c7996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\security">
+      <UniqueIdentifier>{b4c17faf-788d-420c-8404-0aa6a5d5f968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\security\auth">
+      <UniqueIdentifier>{58544c04-ae00-4dc5-b0ec-c83503552ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\security\encryption">
+      <UniqueIdentifier>{e60b4c96-dfcf-4e3d-9df5-750fbff63cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\game\sdk">
+      <UniqueIdentifier>{301b3e40-3255-4596-8b53-e729717460b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\game\threads">
+      <UniqueIdentifier>{2eab3641-16cc-4e84-a587-3c77c7d22558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\game\storage">
+      <UniqueIdentifier>{664fa265-e505-44cf-a915-7271cf54b19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\game\sdk\classes">
+      <UniqueIdentifier>{e1b6eda5-2f7f-4fa5-a47d-81871a55e85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\game\sdk\struct">
+      <UniqueIdentifier>{b24e9ea6-25c2-4721-89e7-b0faa3124d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\utils">
+      <UniqueIdentifier>{60ef1a43-4d62-4644-836a-497d46a6d0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\discord">
+      <UniqueIdentifier>{e8306381-b25c-412a-9065-e5ccca7077fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\config">
+      <UniqueIdentifier>{5651e62c-40dd-4ac0-8370-fde2176a8b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\math">
+      <UniqueIdentifier>{57ded483-f155-4d95-a7db-8b70b84e32d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\ui">
+      <UniqueIdentifier>{c10e5d6c-b210-457e-8c6f-21871b00f59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\ui\imgui">
+      <UniqueIdentifier>{9c3e3bc7-26f7-47f9-8916-ac4d7b2f2bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\ui\fonts">
+      <UniqueIdentifier>{5e9e7f42-292e-4514-9ce4-0baf93c12ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\ui\rendering">
+      <UniqueIdentifier>{b0546625-52b2-4192-b358-e75272f44633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\ui\rendering\widgets">
+      <UniqueIdentifier>{4be152fd-f190-4bfb-b071-7e3c4131748c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\driver">
+      <UniqueIdentifier>{5f950efc-83fd-45fe-bc2e-3b274e244516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\security\smart heap">
+      <UniqueIdentifier>{1a0a7a63-3584-4b47-95cf-5065129d39e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\ui\unity">
+      <UniqueIdentifier>{ef7fd3df-7d54-4c0c-97a2-d9fad951da69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intellect\dependencies\security\lazy_importer">
+      <UniqueIdentifier>{bba5465b-2dfa-4589-b88e-34537b1336d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\authentication">
+      <UniqueIdentifier>{60626027-4853-4bf0-8264-939d572e8a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\authentication\driverstream">
+      <UniqueIdentifier>{3da1be28-d46b-474a-b933-64f55bbff5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\authentication\mapper">
+      <UniqueIdentifier>{ab184e9b-99b4-41d2-97bf-2512dd19cfc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\authentication\protection">
+      <UniqueIdentifier>{47cd9765-052a-4471-a85f-7058344be9c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>Source Files\intellect\dependencies\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets.cpp">
+      <Filter>Source Files\intellect\dependencies\ui\rendering\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>Source Files\authentication\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\authentication\mapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="security.hpp">
+      <Filter>Source Files\intellect\dependencies\security</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Source Files\intellect</Filter>
+    </ClInclude>
+    <ClInclude Include="sounds.hpp">
+      <Filter>Source Files\intellect\game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Source Files\intellect\game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Source Files\intellect\dependencies\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="discord.hpp">
+      <Filter>Source Files\intellect\dependencies\discord</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg.hpp">
+      <Filter>Source Files\intellect\config</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>Source Files\intellect\dependencies\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.hpp">
+      <Filter>Source Files\intellect\dependencies\math</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>Source Files\intellect\dependencies\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>Source Files\intellect\dependencies\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Source Files\intellect\dependencies\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\ahroni.hpp">
+      <Filter>Source Files\intellect\dependencies\ui\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\segoe.hpp">
+      <Filter>Source Files\intellect\dependencies\ui\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\verdana.hpp">
+      <Filter>Source Files\intellect\dependencies\ui\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering.hpp">
+      <Filter>Source Files\intellect\dependencies\ui\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets.h">
+      <Filter>Source Files\intellect\dependencies\ui\rendering\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.hpp">
+      <Filter>Source Files\intellect\game\sdk\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="storage.hpp">
+      <Filter>Source Files\intellect\game\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>Source Files\intellect\dependencies\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\basenetworkable.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\bone.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\camera.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\eyes.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\graphics.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\input.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\item.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\model.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\modelstate.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\object.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\player.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\playerwalkmovement.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\recoil.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\sky.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\unity.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="threads\aimbot.hpp">
+      <Filter>Source Files\intellect\game\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="threads\cache.hpp">
+      <Filter>Source Files\intellect\game\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="threads\game.hpp">
+      <Filter>Source Files\intellect\game\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="threads\render.hpp">
+      <Filter>Source Files\intellect\game\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="unity_functions.hpp">
+      <Filter>Source Files\intellect\dependencies\ui\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdef.h">
+      <Filter>Source Files\intellect\dependencies\ui\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="time.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\uiinventory.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="keyhandler.hpp">
+      <Filter>Source Files\intellect\game\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="keys.hpp">
+      <Filter>Source Files\intellect\config</Filter>
+    </ClInclude>
+    <ClInclude Include="mounted.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="smart_heap.hpp">
+      <Filter>Source Files\intellect\dependencies\security\smart heap</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_importer.hpp">
+      <Filter>Source Files\intellect\dependencies\security\lazy_importer</Filter>
+    </ClInclude>
+    <ClInclude Include="gradient.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="program.h">
+      <Filter>Source Files\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Source Files\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="streaming.h">
+      <Filter>Source Files\authentication\driverstream</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Source Files\authentication\driverstream</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.hpp">
+      <Filter>Source Files\authentication\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="service.hpp">
+      <Filter>Source Files\authentication\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Source Files\authentication\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="protectionscan.h">
+      <Filter>Source Files\authentication\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="cui.h">
+      <Filter>Source Files\authentication\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypt.h">
+      <Filter>Source Files\authentication\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="protect.hpp">
+      <Filter>Source Files\authentication\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="buildingpriviledge.hpp">
+      <Filter>Source Files\intellect\game\sdk\classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="encryption.hpp">
+      <Filter>Source Files\intellect\dependencies\security\encryption</Filter>
+    </None>
+  </ItemGroup>
+</Project>
